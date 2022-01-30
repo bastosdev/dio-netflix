@@ -1,0 +1,25 @@
+@media screen and (max-width: 700px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .filme-principal{
+        height: 400px;
+    }
+    .filme-principal .container{
+        width: 80%;
+    }
+    .filme-principal{
+        background-image: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(../img/houseofcard_bg2.jpg);
+    }
+    .filme-principal .sinopse{
+        margin-bottom: 15px;
+    }
+    .filme-principal .titulo{
+        font-size: 1.8em;
+        margin-top: 15%;
+    }
+    .btn{
+        margin-bottom: 5px;
+    }
+}
